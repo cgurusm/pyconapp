@@ -25,7 +25,7 @@ dependencies:
   share: ^0.6.2+1
   url_launcher: ^5.1.1
   font_awesome_flutter: ^8.5.0
-  cached_network_image: ^1.1.1
+  cached_network_image: ^2.0.0-rc
   shared_preferences: ^0.5.3+4
   flutter_spinkit: "^3.1.0"
   sliding_up_panel: ^0.3.4
@@ -53,6 +53,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/banner_light.png
+    - assets/images/banner_dark.png
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg

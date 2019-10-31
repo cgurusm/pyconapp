@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Devfest {
-  static const String app_name = "Pycon Abuja";
+  static const String app_name = "PyCon Nigeria 2019";
   static const String app_version = "Version 1.0.8";
   static const int app_version_code = 1;
   static const String app_color = "#ffd7167";
@@ -33,11 +33,11 @@ class Devfest {
 
   //* Images
   static const String home_img = "assets/images/home_img.jpeg";
-  static const String banner_light = "assets/images/banner_light.png";
-  static const String banner_dark = "assets/images/banner_dark.png";
+  static const String banner_light = "assets/images/pycon.jpg";
+  static const String banner_dark = "assets/images/pycon.jpg";
 
   //*  Texts
-  static const String welcomeText = "Welcome to PyCon Nigeria";
+  static const String welcomeText = "PyCon Nigeria 2019";
   // static const String descText =
   //     '''DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building & learning about Google’s technologies. Each DevFest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it.''';
 

@@ -12,28 +12,28 @@ class SponsorPage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           SponsorImage(
-            imgUrl: "https://devfest.gdgkolkata.org/assets/img/logos/gd.png",
+            imgUrl: "http://pycon.pythonnigeria.org/static/img/supporters/stickermule.png",
           ),
           SizedBox(
             height: 30,
           ),
           SponsorImage(
-            imgUrl: "https://res.cloudinary.com/jaykon/image/upload/v1570019842/zihdx0vuwbwnoddstget.png",
+            imgUrl: "http://pycon.pythonnigeria.org/static/img/supporters/digitalocean_logo.png",
           ),
           SizedBox(
             height: 30,
           ),
-          // SponsorImage(
-          //   imgUrl:
-          //       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png",
-          // ),
-          // SizedBox(
-          //   height: 30,
-          // ),
-          // SponsorImage(
-          //   imgUrl:
-          //       "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png",
-          // )
+          SponsorImage(
+            imgUrl:
+            "http://pycon.pythonnigeria.org/static/img/supporters/django@2x.png",
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          SponsorImage(
+            imgUrl:
+            "http://pycon.pythonnigeria.org/static/img/supporters/psf@2x.png",
+          )
         ],
       ),
       title: "Sponsors",
@@ -50,11 +50,11 @@ class SponsorImage extends StatelessWidget {
     return Card(
       elevation: 0.0,
       child: Padding(
-        padding: const EdgeInsets.all(12.0),
+        padding: const EdgeInsets.all(24.0),
         child: CachedNetworkImage(
           imageUrl: imgUrl,
-          height: 200.0,
-          width: 200.0,
+          height: 70.0,
+          width: 100.0,
           fit: BoxFit.contain,
         ),
       ),

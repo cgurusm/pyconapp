@@ -138,16 +138,16 @@ class HomeFront extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            // IconButton(
-            //   icon: Icon(FontAwesomeIcons.facebookF),
-            //   onPressed: () async {
-            //     await _launchURL("https://facebook.com/imthepk");
-            //   },
-            // ),
+             IconButton(
+               icon: Icon(FontAwesomeIcons.facebookF),
+               onPressed: () async {
+                 await _launchURL("https://facebook.com/pythonnigeria");
+               },
+             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.twitter),
               onPressed: () async {
-                await _launchURL("https://twitter.com/gdgabuja");
+                await _launchURL("https://twitter.com/pyconnigeria");
               },
             ),
             // IconButton(
@@ -156,27 +156,22 @@ class HomeFront extends StatelessWidget {
             //     _launchURL("https://linkedin.com/in/imthepk");
             //   },
             // ),
-            // IconButton(
-            //   icon: Icon(FontAwesomeIcons.youtube),
-            //   onPressed: () async {
-            //     await _launchURL("https://youtube.com/mtechviral");
-            //   },
-            // ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.meetup),
-              onPressed: () async {
-                await _launchURL("https://meetup.com/GDG-Abuja");
-              },
-            ),
+             IconButton(
+               icon: Icon(FontAwesomeIcons.youtube),
+               onPressed: () async {
+                 await _launchURL("https://www.youtube.com/channel/UCXq7L06VgQ04xFHFG_qFh5A");
+               },
+             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.envelope),
               onPressed: () async {
                 var emailUrl =
-                    '''mailto:devfestabuja@gmail.com ?subject=Support Needed For DevFest Abuja''';
+                    '''mailto:pynigeria@gmail.com ?subject=Hello! PyCon Nigeria''';
                 var out = Uri.encodeFull(emailUrl);
                 await _launchURL(out);
               },
             ),
+
           ],
         ),
       );
@@ -209,10 +204,10 @@ class HomeFront extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Text(
-              Devfest.app_version,
-              style: Theme.of(context).textTheme.caption.copyWith(fontSize: 10),
-            )
+//            Text(
+//              Devfest.app_version,
+//              style: Theme.of(context).textTheme.caption.copyWith(fontSize: 10),
+//            )
           ],
         ),
       ),

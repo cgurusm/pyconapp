@@ -13,7 +13,7 @@ class FindDevFestPage extends StatelessWidget {
           child: Text("Coming Soon"),
         ),
       ),
-      title: "Find A DevFest",
+      title: "",
     );
   }
 }

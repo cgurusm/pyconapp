@@ -13,7 +13,7 @@ class MapPage extends StatefulWidget {
 class _MapPageState extends State<MapPage> {
   GoogleMapController _controller;
   bool isMapCreated = false;
-  static final LatLng myLocation = LatLng(9.0371625, 7.4951342);
+  static final LatLng myLocation = LatLng(9.066723,7.431479);
 
   @override
   void initState() {
@@ -83,13 +83,13 @@ class _MapPageState extends State<MapPage> {
                   child: RichText(
                     textAlign: TextAlign.center,
                     text: TextSpan(
-                        text: "Ayalla Hotels\n",
+                        text: "Bright Star Plaza\n",
                         style: Theme.of(context).textTheme.title.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
                         children: [
                           TextSpan(
-                              text: "Area 11, No.3, Ibi Road, Ahmadu Bello Way, Abuja",
+                              text: "50 Ebitu Ukiwe Street,Jabi, Abuja",
                               style: Theme.of(context).textTheme.subtitle,
                               children: []),
                         ]),

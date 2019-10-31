@@ -22,8 +22,8 @@ class DevScaffold extends StatelessWidget {
         bottom: false,
         child: Scaffold(
           appBar: AppBar(
-            title: Text(title),
-            centerTitle: true,
+   //         title: Text(title),
+     //       centerTitle: true,
             bottom: tabBar != null ? tabBar : null,
             actions: <Widget>[
               IconButton(
@@ -40,7 +40,7 @@ class DevScaffold extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () => Share.share(
-                    "Download the new DevFest App and share with your tech friends.\nPlayStore -  http://bit.ly/2GDr18N"),
+                    "Download the PyCon Nigeria 2019 App and share with your friends."),
                 icon: Icon(
                   Icons.share,
                   size: 20,
